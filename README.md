@@ -1,65 +1,50 @@
-# 🎮 Tetris Game
 
-This is a **classic Tetris game** implemented in **C++**, utilizing the Windows console for rendering. It features vibrant tetrominoes, real-time controls, and a high-score tracking system to keep you engaged.
+# 🎮 Tetris Game in C++
 
----
+A simple Tetris game built in **C++** using **Windows Console Graphics**. It features **colored Tetrominoes, smooth movement, rotation, and scoring**.  
 
-## 🐞 Group Name: **Buzzing Bugs**
 
----
 
-## ✨ Features
+## **🐞 Group Name: Buzzing Bugs**
 
-- 🎨 **Colorful Tetrominoes** rendered directly in the console.
-- 🎮 **Smooth Keyboard Controls** (WASD & Arrow keys supported).
-- 📈 **High-Score Tracking** to challenge yourself.
-- ⚙️ **Real-Time Game Mechanics** with gravity and rotation.
-- 🛠️ **Custom Grid Size** for a unique gameplay experience.
-- 🚀 **Dynamic Difficulty Adjustment** based on your score.
-- 🔄 **Game-Over Screen** with an option to restart and try again.
+## 🚀 Features
 
----
+✅ **7 Classic Tetromino Shapes**\
+✅ **Smooth Rotation & Movement** (Arrow Keys & WASD)\
+✅ **Colorful Console Display**\
+✅ **Score Tracking & High Score System**\
+✅ **Hard Drop & Line Clearing**\
+✅ **Windows Console Optimized**
 
-## 🎯 Controls
+## 🖥️ Controls
 
-- **Left / Right Arrow** or **A / D** → Move left or right.
-- **Up Arrow** or **W** → Rotate the tetromino.
-- **Down Arrow** or **S** → Move piece down faster.
-- **Spacebar** → Perform a hard drop.
-- **R** → Restart the game after game over.
-- **X** → Exit the game.
+| Key                | Action     |
+| ------------------ | ---------- |
+| ⬅️ Left Arrow / A  | Move Left  |
+| ➡️ Right Arrow / D | Move Right |
+| ⬇️ Down Arrow / S  | Soft Drop  |
+| ⬆️ Up Arrow / W    | Rotate     |
+| Spacebar           | Hard Drop  |
 
----
+## 🎮 How to Play
 
-## 🖥️ System Requirements
+1. **Run the game** by compiling `tetris.cpp` using a C++ compiler.
+2. **Control Tetrominoes** to form complete horizontal lines.
+3. **Clear lines** to score points.
+4. **Game ends** when pieces stack to the top.
 
-- 🏁 **Windows OS**
-- 🔧 **C++ Compiler** (MinGW recommended)
-- 🎨 **Console that supports ANSI escape sequences** for color rendering.
+## 🛠️ How to Compile & Run
 
----
+### **On Windows (MinGW or MSVC)**
 
-## 🚀 Future Improvements
-
-- 👻 **Ghost Piece Preview** for better planning.
-- 🎵 **Music & Sound Effects** for an immersive experience.
-- ⏸️ **Pause & Resume Feature** for convenience.
-- 🎮 **Custom Key Bindings** for personalized gameplay.
-- 👥 **Multiplayer Mode** for competitive fun.
-- 🏆 **Leaderboard Tracking** to rank top scores.
-- 🔢 **Different Difficulty Modes** to suit all skill levels.
-
----
-
-## 📜 License
-
-This project is **open-source** and available under the **MIT License**.
-
----
+```sh
+g++ tetris.cpp -o tetris.exe
+tetris.exe
+```
 
 ## 🏆 Credits
 
-Developed by **Buzzing Bugs** 🚀
+Developed by Buzzing Bugs 🚀
 
 | Name         | Student ID | Group |
 | ------------ | ---------- | ----- |
@@ -68,7 +53,5 @@ Developed by **Buzzing Bugs** 🚀
 | Aarushi Shah | 202401193  | G3    |
 | Harivadan    | 202401257  | G4    |
 
-📌 This project was proudly created by **Buzzing Bugs**.
-
-
+📌 This project was proudly created by Buzzing Bugs.
 
