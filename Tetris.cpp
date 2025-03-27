@@ -369,5 +369,5 @@ cout << "Final High Score: " << highScore << "\n";
 system("pause");  
 return 0;
 
-} How many lines in this code
+} 
 
