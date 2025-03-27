@@ -1,46 +1,29 @@
 
-# 🎮 Tetris Game in C++
 
-A simple Tetris game built in **C++** using **Windows Console Graphics**. It features **colored Tetrominoes, smooth movement, rotation, and scoring**.  
+# 🎮 Tetris Game  
+🐞 **Group Name:** Buzzing Bugs  
 
+## 📌 About the Project  
+This is a **console-based Tetris game** built using **C++**. The game generates different Tetrominoes (shapes) that fall from the top of the screen. The player can move, rotate, and stack them to clear lines and score points.  
 
+## 🎯 Features  
+✅ **Classic Tetris Gameplay** – Move, rotate, and drop blocks to clear lines.  
+✅ **Random Tetromino Generation** – Different shapes appear randomly.  
+✅ **Score System** – Gain points by clearing rows.  
+✅ **Simple UI** – Works in the console for smooth gameplay.  
+✅ **Keyboard Controls** – Move blocks using arrow keys.  
 
-## **🐞 Group Name: Buzzing Bugs**
+## 🎮 Controls  
+- **Left Arrow (←)** – Move left  
+- **Right Arrow (→)** – Move right  
+- **Down Arrow (↓)** – Move down  
+- **Up Arrow (↑)** – Rotate block  
+- **Spacebar** – Hard drop  
+- **Esc** – Quit the game  
 
-## 🚀 Features
-
-✅ **7 Classic Tetromino Shapes**\
-✅ **Smooth Rotation & Movement** (Arrow Keys & WASD)\
-✅ **Colorful Console Display**\
-✅ **Score Tracking & High Score System**\
-✅ **Hard Drop & Line Clearing**\
-✅ **Windows Console Optimized**
-
-## 🖥️ Controls
-
-| Key                | Action     |
-| ------------------ | ---------- |
-| ⬅️ Left Arrow / A  | Move Left  |
-| ➡️ Right Arrow / D | Move Right |
-| ⬇️ Down Arrow / S  | Soft Drop  |
-| ⬆️ Up Arrow / W    | Rotate     |
-| Spacebar           | Hard Drop  |
-
-## 🎮 How to Play
-
-1. **Run the game** by compiling `tetris.cpp` using a C++ compiler.
-2. **Control Tetrominoes** to form complete horizontal lines.
-3. **Clear lines** to score points.
-4. **Game ends** when pieces stack to the top.
-
-## 🛠️ How to Compile & Run
-
-### **On Windows (MinGW or MSVC)**
-
-```sh
-g++ tetris.cpp -o tetris.exe
-tetris.exe
-```
+## 🚀 How to Run  
+### **Step 1: Compile the Code**  
+Use any C++ compiler (e.g., g++) to compile the source code:  
 
 ## 🏆 Credits
 
